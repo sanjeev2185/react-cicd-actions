@@ -33,5 +33,5 @@ jobs:
           password: ${{ secrets.CPANEL_FTP_PASSWORD }}
           local-dir: ./dist/
           server-dir: /public_html/test/
-          protocol: ftps   # or "ftp" if your server doesn't support FTPS
+          protocol: ftp   # or "ftp" if your server doesn't support FTPS
           timeout: 60000
