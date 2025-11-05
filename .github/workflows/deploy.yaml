@@ -21,7 +21,7 @@ jobs:
       - name: 📦 Install dependencies
         run: npm ci
 
-      - name: 🏗️ Build project (Vite)
+      - name: 🏗️ Build project (Vite server)
         run: npm run build
 
       # --- Deployment Step ---
